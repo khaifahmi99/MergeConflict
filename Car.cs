@@ -5,7 +5,7 @@ public class Car {
   private float _price;
   
   public string Model {
-    get{ return _model; }
+    get{ return _model.ToLower(); }
     set { _model = value; }
   }
   
@@ -17,7 +17,7 @@ public class Car {
   }
   
   public void Drive(){
-    
+    Console.WriteLine("Vrooommm!!!");
   }
   
 }
