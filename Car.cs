@@ -22,4 +22,8 @@ public class Car {
 
   }
   
+  public void Upgrage(){
+	_price += 50000;  
+  }
+  
 }
